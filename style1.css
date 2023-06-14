@@ -1,6 +1,6 @@
 
 /* *******'''''''''''''''''' Mobile responsive '''''''''''''''''''''********* */
-     @media screen and (max-width: 480px)
+     @media screen and (max-width: 600px)
      { 
 
      	 .header a{
@@ -28,22 +28,34 @@
                text-align: center;
                padding: 3% 0%;
                font-size: 15px;
-
           }
           .s-1 h2{
                font-size: 36px;
           }
+          .s-1 .s1 a{
+              width: 100%;
+              margin-bottom: 32px;
+          }
+          .s-1 .s1 .bi-align{
+               width: 100%;
+               margin: 0px;
+          }
 
           .about .col-5{
                width: 100%;
+          }
+          .about .col-5 .content{
+               padding: 0px;
           }
           .about .col-7{
                width: 100%;
           }
           .about .col-5 .con-mp4 .play-btn{
                position: absolute;
-               top: 153em;
-               left: 11.5em;
+               top: 150em;
+               left: 7.5em;
+               width: 60px;
+               height: 60px;
           }
           .about .about-con{
                margin: 0px 20px;
@@ -53,9 +65,6 @@
 
           .why-yummy .col-4 , .col-8{
                width: 100%;
-          }
-          .why-yummy .bi{
-               margin: 10px 50px;
           }
 
           .counter{
@@ -68,20 +77,34 @@
           .menu-card .col-4{
                width: 100%;
           }
+          .menu-card .ref h4{
+               font-size: 14px;
+          }
+          .menu-card .starters .items .ingredients{
+               text-align: center;
+          }
 
           .testimonials .col-6 , .col-3{
                width: 100%;
           }
           .testimonials .testimonials-img{
-               margin-top: 15px;
+               margin-top: 18px;
+          }
+          .testimonials .testimonials-img img{
+               margin: 0px 30px;
           }
 
           .events .col-4{
                width: 100%;
           }
+          .events .bg-2{
+               border-left: 0px;
+               border-right: 0px;
+          }
 
           .chef .col-4{
                width: 100%;
+               padding: 19px 12px;
           }
           
 
@@ -95,6 +118,20 @@
 
           .location .col-6{
                width: 100%;
+          }
+          .location .location-cont .flex{
+               display: block;
+          }
+          .location .location-cont i{
+               margin-left: 68.5px;
+
+          }
+          .location .location-cont h3, p{
+               text-align: center;
+               padding-top: 10px;
+          }
+          .section-header p, span{
+               font-size: 23px;
           }
      }
 
