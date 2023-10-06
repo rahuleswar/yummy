@@ -121,7 +121,7 @@
 
           .location .location-cont h3, p{
                padding-top: 10px;
-               text-align: center;
+               text-align: left;
           }
           .section-header p, span{
                font-size: 23px;
