@@ -738,7 +738,9 @@ img{
 .testimonials .rate{
   margin-top: 20px;
 }
-
+.owl-theme .owl-nav.disabled + .owl-dots{
+  margin-top: 30px;
+}
 
 /* *******'''''''''''''''''' End Testimonials section '''''''''''''''''''''********* */
 /* *******'''''''''''''''''' Events section '''''''''''''''''''''********* */
