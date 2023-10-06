@@ -3,6 +3,7 @@
      @media screen and (max-width: 600px)
      { 
 
+
      	 .header a{
               text-align: center;
      	 }
@@ -51,17 +52,15 @@
                width: 100%;
           }
           .about .col-5 .con-mp4 .play-btn{
-               position: absolute;
-               top: 150em;
-               left: 7.5em;
-               width: 60px;
-               height: 60px;
+               left: 7rem;
+               bottom: 6rem;
+               width: 70px;
+               height: 70px;
           }
           .about .about-con{
                margin: 0px 20px;
                padding: 20px 0px;
           }
-
 
           .why-yummy .col-4 , .col-8{
                width: 100%;
@@ -119,21 +118,166 @@
           .location .col-6{
                width: 100%;
           }
-          .location .location-cont .flex{
-               display: block;
-          }
-          .location .location-cont i{
-               margin-left: 68.5px;
 
-          }
           .location .location-cont h3, p{
-               text-align: center;
                padding-top: 10px;
+               text-align: center;
           }
           .section-header p, span{
-               font-size: 37px;
+               font-size: 23px;
+          }
+
+          .location-cont .flex{
+             background: #f4f4f4;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+          }
+          footer p{
+               text-align: left;
           }
      }
 
 /* *******'''''''''''''''''' End Mobile responsive '''''''''''''''''''''********* */
 
+/* *******'''''''''''''''''''Tablet Responsive ''''''''''''''''''''********* */
+
+@media (min-width:768px) and (max-width:992px)
+{
+
+
+ .header a{
+              text-align: center;
+           }
+           
+           .header .col-7{
+               display: none;
+           }
+           .header .col-2{
+               width: 50%;
+           }
+           .header .col-3{
+               width: 50%;
+           }
+           .header .but{
+              position: relative;
+              text-align: center;
+           }
+     
+          .s-1 .col-5{
+               width: 100%;
+          }
+          .s-1 .center{
+               text-align: center;
+               padding: 3% 0%;
+          }
+
+          .s-1 .s1 a{
+              width: 100%;
+              margin-bottom: 32px;
+          }
+          .s-1 .s1 .bi-align{
+               width: 100%;
+               margin: 0px;
+          }
+
+          .about .col-5{
+               width: 100%;
+          }
+          .about .col-5 .content{
+               padding: 0px;
+          }
+          .about .col-7{
+               width: 100%;
+          }
+          .about .col-5 .con-mp4 .play-btn{
+               left: 15rem;
+               bottom: 10rem;
+          }
+          .about .about-con{
+               margin: 0px 20px;
+               padding: 20px 0px;
+          }
+
+          .why-yummy .col-4 , .col-8{
+               width: 100%;
+          }
+
+          .counter{
+               width: 100%;
+          }
+          .counter {
+               width: 100%;
+          }
+
+          .menu-card .col-4{
+               width: 100%;
+          }
+
+          .menu-card .starters .items .ingredients{
+               text-align: center;
+          }
+
+          .testimonials .col-6 , .col-3{
+               width: 100%;
+          }
+          .testimonials .testimonials-img{
+               margin-top: 18px;
+          }
+          .testimonials .testimonials-img img{
+               margin: 0px 30px;
+          }
+
+          .events .col-4{
+               width: 100%;
+          }
+          .events .bg-2{
+               border-left: 0px;
+               border-right: 0px;
+          }
+
+          .chef .col-4{
+               width: 100%;
+               padding: 19px 12px;
+          }
+          
+
+          .t-booking .col-4{
+               width: 100%;
+          }
+
+          .gallery {
+               display: none;
+          }
+
+          .location .col-6{
+               width: 100%;
+          }
+
+
+          .location .location-cont h3, p{
+               padding-top: 10px;
+               text-align: center;
+          }
+
+          .location-cont .flex{
+             background: #f4f4f4;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+          }
+          footer p{
+               text-align: left;
+          }
+
+          .about .content ul{
+               height: 8rem;
+          }
+          .about .content p{
+               text-align: left;
+          }
+     }
+
+
+
+/* *******'''''''''''''''''''Tablet Responsive ''''''''''''''''''''********* */
