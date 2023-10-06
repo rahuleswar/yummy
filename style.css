@@ -739,7 +739,7 @@ img{
   margin-top: 20px;
 }
 .owl-theme .owl-nav.disabled + .owl-dots{
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 /* *******'''''''''''''''''' End Testimonials section '''''''''''''''''''''********* */
