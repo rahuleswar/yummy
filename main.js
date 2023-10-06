@@ -27,12 +27,25 @@ $('.counting').each(function() {
 
 var owl = $('.gallery-move');
 owl.owlCarousel({
-    items:5,
     loop:true,
     margin:10,
     autoplay:true,
     autoplayTimeout:2500,
-    autoplayHoverPause:false
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        960:{
+            items:5
+        },
+        1200:{
+            items:5
+        }
+    }
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[2500])
@@ -44,12 +57,26 @@ $('.stop').on('click',function(){
 
 var owl = $('.event');
 owl.owlCarousel({
-    items:3,
     loop:true,
     margin:10,
     autoplay:true,
     autoplayTimeout:5000,
-    autoplayHoverPause:false
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        960:{
+            items:3
+        },
+        1200:{
+            items:3
+        }
+    }    
+
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[5000])
@@ -57,6 +84,7 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+
 
 
 $('.lazy').owlCarousel({
@@ -67,5 +95,3 @@ $('.lazy').owlCarousel({
     loop:true,
     margin:10
 });
-
-
